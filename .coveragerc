@@ -1,0 +1,10 @@
+[run]
+omit =
+    src/generation/build_batch.py
+    src/ingestion/upload_to_databricks.py
+    */__init__.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
