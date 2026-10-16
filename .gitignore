@@ -1,4 +1,34 @@
+# Environment
 .env
+.env.bak
 venv/
+.venv/
+
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data
 data/raw/*.parquet
+data/synthetic/
+data/reference/*.csv
+
+# Databricks
+.databricks/
+*.dbc
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
