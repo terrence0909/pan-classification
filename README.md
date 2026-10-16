@@ -1,5 +1,7 @@
 # PAN Classification Pipeline
 
+![CI](https://github.com/terrence0909/pan-classification/actions/workflows/ci.yml/badge.svg)
+
 A production-grade data engineering project that classifies card **Primary Account Numbers (PANs)** from South African bank transaction feeds into four types: **FULL_PAN**, **MASKED**, **TRUNCATED**, and **NULL**.
 
 Built to mirror the data-quality challenges the South African Reserve Bank (SARB) faces when receiving mixed card data from commercial banks — where some records contain full PANs (a PCI compliance risk) and others are masked or truncated for display.
